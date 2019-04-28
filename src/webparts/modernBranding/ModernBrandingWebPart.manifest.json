@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "0ddd3dad-3503-48ca-8661-db2536b77a97",
+  "alias": "ModernBrandingWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "ModernBranding" },
+    "description": { "default": "ModernBranding Web Part for single page use" },
+    "officeFabricIconFontName": "CSS",
+    "properties": {
+      "description": "ModernBranding"
+    }
+  }]
+}

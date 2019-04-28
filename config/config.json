@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "modern-branding-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/modernBranding/ModernBrandingWebPart.js",
+          "manifest": "./src/webparts/modernBranding/ModernBrandingWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery":"node_modules/jquery/dist/jquery.min.js"
+  },
+  "localizedResources": {
+    "ModernBrandingWebPartStrings": "lib/webparts/modernBranding/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,36 @@
+
+/* custom font */
+@font-face {font-family: Ubuntu; src: url(../assets/Ubuntu-Bold.ttf)}
+
+/* The frame's canvas outher wrap */
+.CanvasComponent {
+    background: #801998;
+    background-image: linear-gradient(to right, rebeccapurple, #dc73d0);
+    padding: 40px;
+}
+/* The web part itself */
+.modernBranding {background: plum; color: #f5f5f5; font-size: 30px; padding: 40px; border: 10px dashed rebeccapurple}
+
+/* Web Part Headers */
+div[class^="webPartHeader_"] > div > span[role=heading] {font-family: Ubuntu; font-size: 22px!important}
+div[class^="webPartHeader_"] > div[class^="captionElement_"] span {font-family: Ubuntu; color: #67064d;}
+div[class^="webPartHeader_"] > div[class^="captionElement_"] {
+    border-bottom: 1px solid #bb0694!important; padding-bottom: 15px!important; margin-bottom: 15px!important;
+}
+
+/* Mega Menu */
+.ms-MegaMenu-Callout {margin-top: 12px; background: #f7f7f7; box-shadow: none}
+.ms-MegaMenu-gridLayoutItem {border-top: 1px solid #d3d3d3; border-bottom: 1px solid #d3d3d3;}
+.ms-MegaMenu-gridLayout.withDivider {background-image: linear-gradient(to right, #d3d3d3 1px, transparent 1px); border-right: 1px solid #d3d3d3}
+.ms-MegaMenu-Callout .ms-MegaMenu-gridLayout {padding-bottom: 0}
+.ms-MegaMenu-Callout .ms-Menu-section {margin: 18px; margin-bottom: 10px}
+.ms-MegaMenu-Callout .ms-Menu-heading {font-size: 16px; margin: 0!important; color: #000000; background: #efd2ec; padding: 10px 12px}
+.ms-MegaMenu-Callout .ms-Menu-section li:first-of-type {margin-top: 5px}
+.ms-MegaMenu-Callout .ms-Menu-item {padding-left: 8px; line-height: 34px}
+.ms-MegaMenu-Callout .ms-Menu-section .ms-Nav-link:hover {text-decoration: none}
+.ms-MegaMenu-Callout .ms-Menu-section .ms-Nav-link .ms-ContextualMenu-itemText:hover {color: #ff00ae}
+.ms-MegaMenu-Callout .ms-MegaMenu-gridLayoutItem .ms-Menu-heading a:hover {text-decoration: none}
+.ms-MegaMenu-Callout .ms-MegaMenu-gridLayoutItem:before {
+    top: -5px; left: 49px; border: solid transparent; content: " "; position: absolute;
+    border-color: rgba(255, 255, 255, 0); border-bottom-color: #efd2ec; border-width: 12px; margin-left: -16px;
+}
