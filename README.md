@@ -5,7 +5,7 @@ Put in this web part onto a modern page.
 The page standard SharePoint CSS will be overwritten by this web part's CSS.
 It will affect the headers for the web parts, a border surrounding the main canvas and add some style for the mega meny (no problems if you don't use a mega menu)
 
-This web part is not ment for a classic page, or not for SharePoint server (since I have not tested this one on 2016/2019)
+This web part is not ment for a classic page, or not for SharePoint server since I have not tested this one in SP Server 2016 or 2019. It should work in general but you need to modify this web part since server runs on an early version of SPFx.
 
 
 ![Intranet](https://user-images.githubusercontent.com/8525108/56864854-b35aee00-69c7-11e9-9997-ebf3afdaadee.png)
