@@ -7,6 +7,10 @@ It will affect the headers for the web parts, a border surrounding the main canv
 
 This web part is not ment for a classic page, or not for SharePoint server (since I have not tested this one on 2016/2019)
 
+
+![Intranet](https://user-images.githubusercontent.com/8525108/56864854-b35aee00-69c7-11e9-9997-ebf3afdaadee.png)
+
+
 ### installing the code
 git clone the repo (if using git)
 npm i
